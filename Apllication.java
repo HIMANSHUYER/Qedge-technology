@@ -6,4 +6,15 @@ public void paint(Graphics g) {
         setForeground(Color.RED);  
         g.fillOval(130,130,50, 60);  
         g.drawArc(30, 200, 40,50,90,60);  
-        g.fillArc(30, 130, 40,50,180,40); 
+        g.fillArc(30, 130, 40,50,180,40);  
+
+# code changes by ethan for feature 2.2 for hdfc application
+
+ public static void main(String[] args) {  
+        DisplayGraphics m=new DisplayGraphics();  
+        JFrame f=new JFrame();  
+        f.add(m);  
+        f.setSize(400,400);  
+        //f.setLayout(null);  
+        f.setVisible(true);  
+# End of feature 2.2 method
