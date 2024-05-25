@@ -5,6 +5,10 @@
   <artifactId>qclassroomApp</artifactId>
   <packaging>jar</packaging>
   <version>1.4</version>
+  <properties>
+   <maven.compiler.source>18</maven.compiler.source>
+   <maven.compiler.target>18</maven.compiler.target>
+ </properties> 
   <name>qclassroomApp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
